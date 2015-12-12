@@ -15,9 +15,15 @@ following the [steps for Cloud9 Setup](#cloud9-setup) instead!
 Do you already have Ruby on Rails successfully installed on your machine?
 
 _Only_ if you already have successfully installed Ruby on Rails on your local machine, follow these steps:
-  1.  Git clone this repo onto your local machine.  
+  1. If you don't care about pushing this project up to your own Github repo later? Then, git clone this repo onto your local machine.  
       - In the terminal, type `git clone https://github.com/traumverloren/railspet.git`
       - Make sure you are in your projects folder or wherever you want to store your projects.
+
+    If you want to have this project in your own Github remote repos...
+     - Then, click the `Fork` button at the top right.  
+     - This will create a new repo in your github projects.  Go to your profile page and click on the  `railspet` repo.
+     - To git clone this repo to your local machine:  In the terminal, type `git clone` with that repo's address.
+
   2.  Navigate into this folder by typing `cd railspet`
   2.  Next, type: `bundle install`
   3.  Then, type: `bin/rake db:migrate`
